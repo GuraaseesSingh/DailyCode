@@ -1,0 +1,11 @@
+# Ignore dependencies
+node_modules/
+
+# Ignore build outputs
+dist/
+
+# Ignore lock file
+package-lock.json
+
+# Ignore readme (if you really don’t want it tracked)
+Readme.md
