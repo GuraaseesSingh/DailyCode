@@ -2,18 +2,19 @@
   "name": "code",
   "version": "1.0.0",
   "description": "Hi! I'm Guraasees Singh — a student obsessing about CS. \r I've publicly committed to coding every day.\r Pshing to this repo daily.",
-
+   "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc -b",
-    "start":"npm run dev"
+    "start": "node ./dist/index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "typescript": "^5.9.2"
+    "@types/ws": "^8.18.1",
+    "typescript": "^5.9.2",
+    "ws": "^8.18.3"
   }
 }
-
