@@ -1,1 +1,1 @@
-{"root":["./src/index.ts"],"version":"5.9.2"}
+{"root":["./echo-fe/vite.config.ts","./echo-fe/src/app.tsx","./echo-fe/src/main.tsx","./echo-fe/src/vite-env.d.ts","./src/index.ts"],"errors":true,"version":"5.9.2"}
